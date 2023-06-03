@@ -82,6 +82,8 @@ plugins=(
 	# other plugins
 	zsh-autosuggestions
 	zsh-syntax-highlighting
+	rand-quote
+	cp
 )
 
 source $ZSH/oh-my-zsh.sh
@@ -128,4 +130,5 @@ alias tt="curl www.google.com"
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
 # 清屏的快捷命令
 alias cl="clear"
+quote | cowsay
 source /Users/feng/.config/broot/launcher/bash/br
