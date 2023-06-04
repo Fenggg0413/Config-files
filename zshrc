@@ -32,11 +32,11 @@ ZSH_THEME="powerlevel10k/powerlevel10k"
 
 # Uncomment one of the following lines to change the auto-update behavior
 # zstyle ':omz:update' mode disabled  # disable automatic updates
-# zstyle ':omz:update' mode auto      # update automatically without asking
+zstyle ':omz:update' mode auto      # update automatically without asking
 # zstyle ':omz:update' mode reminder  # just remind me to update when it's time
 
 # Uncomment the following line to change how often to auto-update (in days).
-# zstyle ':omz:update' frequency 13
+# zstyle ':omz:update' frequency 7
 
 # Uncomment the following line if pasting URLs and other text is messed up.
 # DISABLE_MAGIC_FUNCTIONS="true"
@@ -84,6 +84,9 @@ plugins=(
 	zsh-syntax-highlighting
 	rand-quote
 	cp
+	macos
+	History
+	Z
 )
 
 source $ZSH/oh-my-zsh.sh
@@ -130,5 +133,8 @@ alias tt="curl www.google.com"
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
 # 清屏的快捷命令
 alias cl="clear"
+# 牛牛的格言
 quote | cowsay
+# 检查命令执行情况
+alias ec="echo $?"
 source /Users/feng/.config/broot/launcher/bash/br
