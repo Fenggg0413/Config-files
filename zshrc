@@ -133,8 +133,14 @@ alias tt="curl www.google.com"
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
 # 清屏的快捷命令
 alias cl="clear"
-# 牛牛的格言
-quote | cowsay
 # 检查命令执行情况
 alias ec="echo $?"
+# 设定默认用vim操作zsh
+bindkey -v
+# joshuto的快捷打开
+alias js="joshuto"
+# git status
+alias gs="git status"
+# 覆盖前询问
+alias mv="mv -i"
 source /Users/feng/.config/broot/launcher/bash/br
