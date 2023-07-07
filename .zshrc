@@ -143,4 +143,6 @@ alias js="joshuto"
 alias gs="git status"
 # 覆盖前询问
 alias mv="mv -i"
+# 查看git log更好的方法
+alias gla='git log --all --graph --decorate'
 source /Users/feng/.config/broot/launcher/bash/br
