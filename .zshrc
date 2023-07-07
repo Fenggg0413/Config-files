@@ -145,4 +145,5 @@ alias gs="git status"
 alias mv="mv -i"
 # 查看git log更好的方法
 alias gla='git log --all --graph --decorate'
+alias glao='git log --all --graph --decorate --oneline'
 source /Users/feng/.config/broot/launcher/bash/br
