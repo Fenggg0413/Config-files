@@ -1,0 +1,5 @@
+[user]
+	email = 18178712792@163.com
+	name = Fen4
+[alias]
+	graph = log --all --graph --decorate --oneline
