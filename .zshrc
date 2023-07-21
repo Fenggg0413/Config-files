@@ -146,4 +146,6 @@ alias mv="mv -i"
 # 查看git log更好的方法
 alias gla='git log --all --graph --decorate'
 alias glao='git log --all --graph --decorate --oneline'
+# g++编译
+alias compile='g++ -std=c++2a -Wall'
 source /Users/feng/.config/broot/launcher/bash/br
