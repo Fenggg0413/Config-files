@@ -85,8 +85,8 @@ plugins=(
 	rand-quote
 	cp
 	macos
-	History
-	Z
+	history
+	z	
 )
 
 source $ZSH/oh-my-zsh.sh
