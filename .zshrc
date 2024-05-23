@@ -148,4 +148,8 @@ alias gla='git log --all --graph --decorate'
 alias glao='git log --all --graph --decorate --oneline'
 # g++编译
 alias compile='g++ -std=c++2a -Wall'
+# go代理
+export GOPROXY=https://goproxy.cn
+export GOPRIVATE=git.xxx.com
+alias python=python3
 source /Users/feng/.config/broot/launcher/bash/br

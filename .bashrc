@@ -1,2 +1,1 @@
-PS1="fen4MacBookair/\s/\w >"
-
+PS1='\u@ubuntu:\w\$ '
