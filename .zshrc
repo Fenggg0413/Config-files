@@ -152,4 +152,5 @@ alias compile='g++ -std=c++2a -Wall'
 export GOPROXY=https://goproxy.cn
 export GOPRIVATE=git.xxx.com
 alias python=python3
+eval "$(fzf --zsh)"
 source /Users/feng/.config/broot/launcher/bash/br
